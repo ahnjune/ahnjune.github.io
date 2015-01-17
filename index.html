@@ -26,13 +26,12 @@
           <p>Using this site to play with github pages and build a blog for basketball analytics articles</p>
         </header>
         
-       
+       <h4>Posts</h4>
         <section id="main_content">
 			<ul>
   				{% for post in site.posts %}
-    				<li>
-      				<a href="{{ post.url }}">{{ post.title }}</a>
-    				</li>
+      				{{ site.time | date_to_string }} >> <a href="{{ post.url }}">{{ post.title }}</a>
+      				<br />
   				{% endfor %}
 			</ul>
 
