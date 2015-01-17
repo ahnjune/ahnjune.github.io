@@ -1,7 +1,27 @@
 highlighter: pygments
 github: [Repository metadata]
 
-safe: true
-lsi: false
-desination: _deploy
 
+defaults:
+    -
+        scope: 
+            path: ""
+            type: "pages"    
+        values:
+            layout: ""
+    
+    -
+        scope:
+            path: "_posts"
+            type: "posts"
+        values:
+            layout: ""
+    -
+        scope:
+            path: "_drafts"
+            type: "drafts"
+        values:
+            layout: ""
+        
+kramdown:
+    input: GFM
