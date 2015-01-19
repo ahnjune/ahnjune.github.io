@@ -1,4 +1,5 @@
 ---
+page.date: YYYY-MM-DD
 ---
 
 
@@ -8,13 +9,13 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <link rel="stylesheet" type="text/css" href="/../stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/../stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="/../stylesheets/print.css" media="print">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>ABA Blog by ahnjune</title>
+    <title>{{page.title}}</title>
   </head>
  
   <body>
@@ -23,15 +24,9 @@
 
         {% include header.html %}
         
-       <h4>Posts</h4>
+       	<h4>{{page.title}}</h4>
         <section id="main_content">
-			<ul>
-  				{% for post in site.posts %}
-      				{{ site.time | date_to_string }} >> <a href="{{ post.url }}">{{ post.title }}</a>
-      				<br />
-  				{% endfor %}
-			</ul>
-
+        	{{content}}
         </section>
 
        {% include footer.html %}

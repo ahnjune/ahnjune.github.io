@@ -50,9 +50,9 @@ table {
 /* LAYOUT STYLES */
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 1em;
+  font-size: 0.95em;
   line-height: 1.5;
-  color: #6d6d6d;
+  color: #444;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
   background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
 }
@@ -276,7 +276,7 @@ h6 {
 }
 
 p {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   font-weight: 300;
 }
 
