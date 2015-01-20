@@ -2,8 +2,7 @@
 title: NBA Teams' Draft Prowess from 2003-2012
 layout: post
 ---
-
-17 Jan 2015
+{{ page.date | date:"%-d %B %Y" }}
 
 Several friends of mine recently got into a heated debate concerning the Boston Celtics. Danny Ainge traded away the likes of Rondo, Jeff Green, and Brandon Wright to add to a bevy of draft picks over the next three years. Were the Celtics better off?
 
