@@ -35,7 +35,7 @@ Here are the top teams in terms of the total win shares earned by all of their d
 4 - NOK (14.2)
 5 - POR (16.9)
 6 - UTA (14.9)
-7 - BOS (21.8)
+7 - **BOS (21.8)**
 
 Here are the worst teams:
 
@@ -66,7 +66,7 @@ The numbers play out differently when looking at average quality. Here are the t
 
 …
 
-14 - BOS 11.68 (21.8)
+14 - **BOS 11.68 (21.8)**
 
 So we see here that Boston is about middle of the pack in terms of the average quality of their players drafted. This is not surprising given that they had so many draft picks. They probably hit on some picks and missed on many of other picks, just like any team, which brings their averages down.
 
