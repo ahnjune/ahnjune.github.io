@@ -5,3 +5,5 @@ exclude: [Gemfile, Gemfile.lock, README.md]
         
 kramdown:
     input: GFM
+    
+baseurl: /
